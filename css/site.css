@@ -1,0 +1,196 @@
+body {
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+  Navbar
+*/
+header #navbarSupportedContent .navbar-nav .active > .nav-link {
+  color: #ffcd0f;
+}
+
+/*
+  Carousel
+*/
+#carousel .carousel-caption {
+  background-image: linear-gradient(to top, #00b0e7, rgba(1, 1, 1, 0));
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#carousel .carousel-caption h5 {
+  background: #ffcd0f;
+  display: unset;
+  padding: .4em .8em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+#carousel .carousel-caption h5:hover {
+  background: #00b0e7;
+}
+
+#carousel .carousel-caption p {
+  margin-top: 1em;
+}
+
+#carousel #carouselCaptions .carousel-control-prev:hover {
+  background-image: linear-gradient(to right, #00b0e7, rgba(1, 1, 1, 0));
+}
+
+#carousel #carouselCaptions .carousel-control-next:hover {
+  background-image: linear-gradient(to left, #00b0e7, rgba(1, 1, 1, 0));
+}
+/*
+  Main
+*/
+main {
+  padding-top: 65px;
+}
+main a:link, main a:visited, footer a:link, footer a:visited {
+  color: #00b0e7 !important;
+  text-decoration: none;
+}
+main a:hover, main a:active, footer a:hover, footer a:active {
+  color: #fff !important;
+}
+/*
+  Main section
+*/
+main section {
+  padding: 4em 0;
+  text-align: center;
+}
+
+/*main a:link, footer a:before {
+  color: #00b0e7 !important;
+}*/
+
+main section:nth-child(odd) {
+  background: #f8f9fa;
+}
+
+main section .title{
+}
+
+main section .subtitle {
+  font-style: italic;
+}
+
+main #carousel {
+  padding: 0;
+}
+
+main #services {
+  text-align: center;
+}
+
+main #services p {
+  text-align: center;
+}
+
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #343a40;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: #00b0e7;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+main #contact {
+  color: white;
+  background-color: #212529;
+  background-image: url(../img/map-image.png);
+}
+
+/*
+  Footer
+*/
+footer .footer-brand {
+  margin: -1em 0 -.5em 0;
+}
+
+footer .quick-links a {
+  text-decoration: none !important;
+  background-color: transparent;
+  margin-bottom: 1.5em;
+}
+
+footer .quick-links a:hover {
+  color: #fff;
+}
