@@ -12,11 +12,29 @@ h6 {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+body .btn {
+  background: #ffcd0f;
+  color: #00b0e7 !important;
+  font-weight: bold;
+  padding: .4em .8em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #00b0e7;
+  color: #fff !important;
+}
+
 /*
   Navbar
 */
 header #navbarSupportedContent .navbar-nav .active > .nav-link {
   color: #ffcd0f;
+}
+
+.navbar form .btn.search:hover {
+  color: white !important;
 }
 
 /*
@@ -31,15 +49,7 @@ header #navbarSupportedContent .navbar-nav .active > .nav-link {
 }
 
 #carousel .carousel-caption h5 {
-  background: #ffcd0f;
   display: unset;
-  padding: .4em .8em;
-  border: 2px solid #fff;
-  border-radius: 5px;
-}
-
-#carousel .carousel-caption h5:hover {
-  background: #00b0e7;
 }
 
 #carousel .carousel-caption p {
@@ -60,11 +70,11 @@ main {
   padding-top: 65px;
 }
 main a:link, main a:visited, footer a:link, footer a:visited {
-  color: #00b0e7 !important;
+  color: #00b0e7;
   text-decoration: none;
 }
 main a:hover, main a:active, footer a:hover, footer a:active {
-  color: #fff !important;
+  color: #fff;
 }
 /*
   Main section

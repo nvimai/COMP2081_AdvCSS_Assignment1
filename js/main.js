@@ -6,17 +6,5 @@ $('#topHeader .navbar a').on('click', function () {
 
 //Enable popover tool on items
 $(function () {
-  $('[data-toggle="popover"]').popover();
-});
-
-//Enable Touchable on Carousel
-$(document).ready(function () {
-  $("#carousel").swipe({
-    swipeRight: function () {
-      $(this).carousel('prev')
-    },
-    swipeLeft: function () {
-      $(this).carousel('next')
-    }
-  })
+  $('[data-toggle="popover"]').popover({ trigger: 'hover' });
 });
