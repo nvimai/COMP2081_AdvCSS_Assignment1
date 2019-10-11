@@ -44,20 +44,23 @@ header #navbarSupportedContent .navbar-nav .active > .nav-link {
 /*
   Carousel
 */
+/*Edit the shape of indicators*/
+#carousel .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: -10px;
+}
+#carousel .carousel-caption .btn {
+  margin-bottom: .6em;
+}
+
 #carousel .carousel-caption {
   background-image: linear-gradient(to top, #00b0e7, rgba(1, 1, 1, 0));
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-}
-
-#carousel .carousel-caption h5 {
-  display: unset;
-}
-
-#carousel .carousel-caption p {
-  margin-top: 1em;
 }
 
 #carousel #carouselCaptions .carousel-control-prev:hover {
